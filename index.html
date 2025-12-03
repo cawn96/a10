@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darion Contreras - Personal Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#map">SJSU Map</a></li>
+            <li><a href="#weather">Weather</a></li>
+            <li><a href="#survey">Survey</a></li>
+        </ul>
+    </nav>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h1>Darion Christopher Contreras</h1>
+        <img src="images/profile.jpg" alt="Profile Photo" id="profile-pic">
+
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mail to:darion.contreras@sjsu.edu">darion.contreras@sjsu.edu</a></p>
+
+        <h2>Work Experience</h2>
+        <ul>
+            <li>
+                <strong>Esports Team Manager</strong> — 2021–2024  
+                <br>Led and managed a 5-player competitive team, successfully organizing comprehensive practice schedules and coordinating tournament signups.
+            </li>
+        </ul>
+
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <strong>San Jose State University</strong> — B.S. Management Information Systems (In Progress)
+            </li>
+        </ul>
+
+        <h2>Resume Download</h2>
+        <a href="documents/resume.pdf" download>Download My Resume (PDF)</a>
+    </section>
+
+    <!-- Google Map Section -->
+    <section id="map">
+        <h2>San José State University - Map</h2>
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.078520193864!2d-121.88107108469166!3d37.33518797984245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fccb42e7762df%3A0xdea3a22aab94f1e4!2sSan%20Jose%20State%20University!5e0!3m2!1sen!2sus!4v1701475567890"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </section>
+
+    <!-- Weather Section -->
+    <section id="weather">
+        <h2>Current Weather in San Jose, CA</h2>
+        <div id="weather-display">Loading weather...</div>
+    </section>
+
+
+    <script src="weather.js"></script>
+</body>
+</html>
