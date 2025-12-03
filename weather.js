@@ -1,4 +1,4 @@
-const apiKey = "25dbac0a94b221c6760554ba9374ec36";
+const apiKey = "bf043caaf74863512b64169c61b5df20";
 const city = "Vallejo";
 
 async function getWeather() {
@@ -24,3 +24,4 @@ async function getWeather() {
 }
 
 getWeather();
+
